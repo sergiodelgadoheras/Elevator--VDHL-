@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="39007250000001fs"></ZoomEndTime>
+      <Cursor1Time time="39007250000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="147"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wave_markers>
+      <marker time="6507250000000" label="" />
+      <marker time="5507250000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TOP_TB/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/CPU_RESETN" type="logic">
+      <obj_property name="ElementShortName">CPU_RESETN</obj_property>
+      <obj_property name="ObjectShortName">CPU_RESETN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/BTNU" type="logic">
+      <obj_property name="ElementShortName">BTNU</obj_property>
+      <obj_property name="ObjectShortName">BTNU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/BTNL" type="logic">
+      <obj_property name="ElementShortName">BTNL</obj_property>
+      <obj_property name="ObjectShortName">BTNL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/BTNR" type="logic">
+      <obj_property name="ElementShortName">BTNR</obj_property>
+      <obj_property name="ObjectShortName">BTNR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/BTND" type="logic">
+      <obj_property name="ElementShortName">BTND</obj_property>
+      <obj_property name="ObjectShortName">BTND</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/to_edge" type="array">
+      <obj_property name="ElementShortName">to_edge[3:0]</obj_property>
+      <obj_property name="ObjectShortName">to_edge[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/inst_control/inst_fsm/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/inst_control/inst_fsm/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/inst_control/inst_fsm/next_contador_piso" type="array">
+      <obj_property name="ElementShortName">next_contador_piso[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_contador_piso[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/inst_control/inst_fsm/contador_piso" type="array">
+      <obj_property name="ElementShortName">contador_piso[1:0]</obj_property>
+      <obj_property name="ObjectShortName">contador_piso[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/inst_control/cuenta" type="array">
+      <obj_property name="ElementShortName">cuenta[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cuenta[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/inst_control/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/inst_control/PISO_DESEADO" type="array">
+      <obj_property name="ElementShortName">PISO_DESEADO[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PISO_DESEADO[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/dut/inst_control/PISO_ACTUAL" type="array">
+      <obj_property name="ElementShortName">PISO_ACTUAL[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PISO_ACTUAL[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/LED16" type="array">
+      <obj_property name="ElementShortName">LED16[2:0]</obj_property>
+      <obj_property name="ObjectShortName">LED16[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/LED17" type="array">
+      <obj_property name="ElementShortName">LED17[2:0]</obj_property>
+      <obj_property name="ObjectShortName">LED17[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/SEGMENT_N" type="array">
+      <obj_property name="ElementShortName">SEGMENT_N[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SEGMENT_N[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_TB/AN" type="array">
+      <obj_property name="ElementShortName">AN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[7:0]</obj_property>
+   </wvobject>
+</wave_config>
