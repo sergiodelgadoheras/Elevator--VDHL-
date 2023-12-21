@@ -1,6 +1,6 @@
 # Elevator--FPGA
 
-Project developed on a Nexys 4 DDR from Xilinx, using Vivado as IDE.
+Project developed on a Nexys 4 DDR from Xilinx, using Vivado.
 
 It simulates the floors from a building with different LEDs, as well as the engines from the elevator doors.
 
